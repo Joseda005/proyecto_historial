@@ -1,2 +1,3 @@
 nombre = input("¿Cómo te llamas? ")
-print(f"Hola, {nombre}!")
+edad = int(input("¿Qué edad tienes? "))
+print(f"Hola, {nombre}! Naciste en el año {2025 - edad}")
